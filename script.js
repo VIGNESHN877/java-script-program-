@@ -12,8 +12,8 @@
              // variable usage
 
              // variable initialization
-             console.log(bookname,"\n".bookauthor,"\n",bookyear);
-            
+             console.log(bookname,"\n",bookauthor,"\n",bookyear);
+            // var or using for a js 
 
              let bookname2 = "i love my self",bookauthor2 = "vignesh.n",bookyear2 = 2004, bookpublisher = "vignesh";
              // variable initialization end
