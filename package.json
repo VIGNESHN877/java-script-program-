@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "node": "^18.20.8",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "start": "script.js"
   }
 }
