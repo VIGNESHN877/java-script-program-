@@ -1,9 +1,2 @@
-// java script 
-
-
-/**
- web deve
- mobile dev
- server side
- desktop apps
- */
+/* syntax and semantics
+and features */
