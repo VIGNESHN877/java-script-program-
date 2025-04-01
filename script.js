@@ -1,7 +1,7 @@
  // variable declaration
 
                 
-
+               // do not start a number in a var and let and const
             let bookname,bookauthor,bookyear;
             bookname = "Harry Potter and the Philosopher's Stone";
             
