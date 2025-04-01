@@ -21,3 +21,19 @@
              console.log(bookname2,"\n",bookauthor2,"\n",bookyear2,"\n",bookpublisher);
             
              // variable usage end
+
+
+            var name = "vignesh";
+
+
+
+            name = "rija tharik"; // change the value of name
+            name =bookauthor;
+
+
+            let one = "vikash";
+            one = "vikarm";
+
+            console.log(one);
+
+            console.log(name);
