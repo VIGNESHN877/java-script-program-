@@ -4,7 +4,7 @@
 
 console.log("this a new file ");
 
-alert("This a alert");
+alert("This a Fun website");
 
 
 
