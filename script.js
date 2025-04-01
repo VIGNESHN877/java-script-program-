@@ -12,16 +12,12 @@
              // variable usage
 
              // variable initialization
-             console.log(bookname);
-             console.log(bookauthor);
-             console.log(bookyear);
+             console.log(bookname,"\n".bookauthor,"\n",bookyear);
             
 
              let bookname2 = "i love my self",bookauthor2 = "vignesh.n",bookyear2 = 2004, bookpublisher = "vignesh";
              // variable initialization end
              // variable usage
-             console.log(bookname2);
-             console.log(bookauthor2);
-             console.log(bookyear2);
-             console.log(bookpublisher);
+             console.log(bookname2,"\n",bookauthor2,"\n",bookyear2,"\n",bookpublisher);
+            
              // variable usage end
