@@ -2,7 +2,9 @@
 
 
 
-console.log("this a new file ")
+console.log("this a new file ");
+
+alert("This a alert");
 
 
 
