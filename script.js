@@ -4,8 +4,9 @@
 
 console.log("this a new file ");
 
+// this print statement
 
-
+console.log("this a to code use a commend line in the single line commend ");
 
 
 
