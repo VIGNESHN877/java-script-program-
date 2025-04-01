@@ -1,23 +1,8 @@
-
-               // this program is to demonstrate commenta in js
-
-
-                console.log("this a new file ");
-
-              ()=>{
-            
-                var a = 10;
-                var b = 20;
-              }
+ // variable declaration
 
 
-             console.log(a+b)
 
-                /*
-                this a mule line comment 
-                for a code */
+            let bookname;
+            bookname = "Harry Potter and the Philosopher's Stone";
 
-                console.log("this a to code use for a program");
-
-
-               
+            console.log(bookname);
