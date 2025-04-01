@@ -25,7 +25,7 @@
 
             var name = "vignesh";
 
-
+             // varable other name is idenfiy
 
             name = "rija tharik"; // change the value of name
             name =bookauthor;
