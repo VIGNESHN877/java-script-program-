@@ -1,7 +1,28 @@
 {
   "dependencies": {
-    "node": "^18.20.8",
-    "nodemon": "^3.1.9",
-    "start": "script.js"
-  }
+    "node": "^18.20.8"
+  },
+  "name": "java-script-program",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000j\u0000a\u0000v\u0000a\u0000-\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u0000p\u0000r\u0000o\u0000g\u0000r\u0000a\u0000m\u0000-\u0000\r\u0000 \u0000",
+  "main": "script.js",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node your-main-file.js",
+    "dev": "nodemon your-main-file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIGNESHN877/java-script-program-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VIGNESHN877/java-script-program-/issues"
+  },
+  "homepage": "https://github.com/VIGNESHN877/java-script-program-#readme"
 }
