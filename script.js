@@ -17,10 +17,13 @@ console.log(typeof pi,typeof prime);
 let infi = Infinity;
 
 let neginf = -Infinity;
+let nan = NaN;
 
 
 
-console.log(infi,"\n",neginf);
+console.log(infi,"\n",neginf,"\n",nan);
 
 
-console.log(typeof infi, "\n",typeof neginf);
+console.log(typeof infi, "\n",typeof neginf,"\n",typeof nan);
+
+
