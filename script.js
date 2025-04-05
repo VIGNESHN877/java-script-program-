@@ -1,13 +1,20 @@
-let  condition1 = 5<10;
+let myname = "John";
 
-for (let value=1; 1 < 10 ; value++)
+console.log(myname,'\n'
+    ,typeof myname,
+);
 
+myname = "vignesh.N";
+
+
+console.log(myname
+    ,'\n',typeof myname,
+);
+
+myname = 12345;
 
 console.log(
 
-value,'\n',
 
-    condition1,'\n',
-
-    typeof condition1,'\n',
+myname, '\n',typeof myname ,
 )
