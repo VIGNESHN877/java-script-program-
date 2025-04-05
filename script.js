@@ -1,20 +1,10 @@
-let myname = "John";
-
-console.log(myname,'\n'
-    ,typeof myname,
-);
-
-myname = "vignesh.N";
 
 
-console.log(myname
-    ,'\n',typeof myname,
-);
+// alert('this a alert');
 
-myname = 12345;
-
-console.log(
+// console.log(alert);
 
 
-myname, '\n',typeof myname ,
-)
+
+
+
