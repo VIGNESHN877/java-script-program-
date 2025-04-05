@@ -1,32 +1,8 @@
-let pi = 3.14;
-
-let  prime = "29";
+// sum ver to save 543 + 245; and the print the value 
 
 
-console.log(pi,prime);
 
+let sum = 543 + 245;
 
-console.log(typeof pi);
-console.log(typeof prime);
-console.log(typeof pi,typeof prime);
-
-
-// special numeric value infinity and -infinity and NaN (not a number)
-
-
-let infi = Infinity;
-
-let neginf = -Infinity;
-
-let nan = NaN;
-
-temp =NaN** 0 ;
-console.log(temp);
-console.log( 1/0);
-
-console.log(infi,"\n",neginf,"\n",nan);
-
-
-console.log(typeof infi, "\n",typeof neginf,"\n",typeof nan);
-
-
+console.log
+(typeof sum); // output: number
