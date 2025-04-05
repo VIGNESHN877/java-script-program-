@@ -22,6 +22,7 @@ let nan = NaN;
 
 temp =NaN** 0 ;
 console.log(temp);
+console.log( 1/0);
 
 console.log(infi,"\n",neginf,"\n",nan);
 
