@@ -11,12 +11,13 @@ console.log(typeof prime);
 console.log(typeof pi,typeof prime);
 
 
-// special numeric value 
+// special numeric value infinity and -infinity and NaN (not a number)
 
 
 let infi = Infinity;
 
 let neginf = -Infinity;
+
 let nan = NaN;
 
 
