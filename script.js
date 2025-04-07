@@ -1,5 +1,9 @@
-let a = 12 , b= 2;
 
-let sum = a ** b ;
 
-console.log(sum);
+// modify in place
+
+let x =12;
+
+x *= 5;
+
+console.log(x);
