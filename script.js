@@ -1,33 +1,38 @@
-let age = undefined ;
+// 7 + 11 = 18
+
+
+// + is an operator
+
+// 7 , 11 are operands
 
 
 
-console.log(typeof age);
+// unary operator is an operator that takes only one operand
 
 
+let x = 5;
 
-age = Number(age);
-
-
-
-console.log(typeof age);
-
-
-
-console.log(age);
-
-
-
-
-let x = 435 ;
-
-
-console.log(typeof x);
-
-x = Boolean(x);
-
-console.log(typeof x);
+x = +x; 
 console.log(x);
 
 
+// binary operator +,-,/,%,***
+// % is modulus operator
+// / is division operator
 
+
+let a = 12;
+
+let b = 7;
+
+let sum =a+b;
+
+console.log(sum);
+
+let c = 12;
+
+let d = 7;
+
+let sum1 =a-b;
+
+console.log(sum1);
