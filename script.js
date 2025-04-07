@@ -1,48 +1,9 @@
-let a = 20;
-let b = 20;
+let a = 20 , b = 20, c =20, d = 20, e = 20,
+ f = 20, g = 20, h = 20,i = 20, j =20;
 
-let sum = a+b;
+ let sum = a+b, sum2 = c-d, sum3 = e*f, sum4 = g/h, sum5 = i%j;
 
-console.log(sum);
-
-
-let c = 20;
-let d = 20;
-
-let sum1 = a-b;
-
-console.log(sum1);
-
-
-let e = 20;
-
-let f = 20;
-
-let sum2 = e*f;
-
-console.log(sum2);
-
-
-let g = 20;
-
-let h = 20;
-
-
-let sum3 = g/h;
-
-console.log(sum3);
-
-
-let i = 20;
-
-
-let j = 20;
-
-
-let sum4 = i%j;
-
-
-console.log(sum4);
+ console.log(sum,'\n',sum2,'\n',sum3,'\n',sum4,'\n',sum5,)
 
 
 // this a binary value and demo codeing 
