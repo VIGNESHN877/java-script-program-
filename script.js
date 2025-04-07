@@ -1,13 +1,14 @@
-// increment and // Decrement 
+// < lessthan 
+// < grather than
 
 
-let x =12 ;
+let  a = 5;
 
-console.log(x--); 
+let b = 10;
 
-console.log(x);
+let result = a <=b;
 
-console.log(++x); 
-console.log(++x); 
 
-console.log(x); 
+console.log(a>b);
+
+console.log(result);
