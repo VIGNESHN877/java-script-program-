@@ -1,9 +1,6 @@
+// increment and // Decrement 
 
 
-// modify in place
-
-let x =12;
-
-x *= 5;
-
-console.log(x);
+let x =23 ;
+x++;
+console.log(x); //24
