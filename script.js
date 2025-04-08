@@ -8,10 +8,26 @@
    1  0
    0  1   */
 
-   // truth table for AND operator
+//    // truth table for AND operator
+
+// // eli
+//    console.log(1 || 23);
+// console.log(1 && 23);
+
+// console.log(!0)
 
 
-   console.log(1 || 23);
-console.log(1 && 23);
+// eligibity for a mrg 
 
-console.log(!0)
+
+let age = 20;
+
+
+let Gender = "Female";
+if(age > 21 || age >= 18 && Gender === "Female" ){
+
+    console.log('Eligible');
+}
+else {
+    console.log('not Eligible')
+}
