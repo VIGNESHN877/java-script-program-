@@ -1,18 +1,23 @@
-let adult;
+let person;
 
 
-let age = 19;
+let age = 18 ;
 
 
-if(age>18){
+if(age >= 18, age <=50) {
 
-adult = "the age is greater than 18";
+person = "the age is greater than 18";
+}
+
+else if(age > 50, age < 100)
+    { 
+    person = "the age is greater than 51";
 }
 else{
 
-    adult = ' the age is less than 18';
+    person = ' the age is less than 18';
 }
 
 
 
-console.log(adult);
+console.log(person);
