@@ -2,12 +2,6 @@ let person;
 
 
 let age = 51 ;
-
-
-person = (age > 18,age >= 50) ?
- "adult" :(age < 55) ? 
- "young adult" : 
- "old adult" ;
-
-
-console.log(person);
+if ('0'){
+    console.log('0 is a string');
+}
