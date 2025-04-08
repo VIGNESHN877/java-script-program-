@@ -5,6 +5,6 @@
 
     let b = 0;
     b = Boolean(b);
-    console.log(a,b);
+    console.log('0'== 0);
 
    
