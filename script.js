@@ -1,16 +1,10 @@
-//is a !=b ?
+    let a = '0';
 
-// comparisons in javascript
-let  a = "vignesh"; // -> false
+    a = Boolean(a);
 
-let b = 'vigneshn';// -> true 
 
-let result = a <b;
+    let b = 0;
+    b = Boolean(b);
+    console.log(a,b);
 
-let result1 = a > b;
-let result2 = a == b;
-
-console.log(result1)
-console.log(result);
-console.log(result2);
-// there are using unicode
+   
