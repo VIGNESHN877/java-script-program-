@@ -1,14 +1,16 @@
-  let isadult ;
+let adult;
 
 
-  let age = 20;
+let age = 19;
 
 
-  if(age > 18){
+if(age>18){
 
-isadult = true;
-  
+adult = "the age is greater than 18";
+}
+else{
 
+    adult = ' the age is less than 18';
+}
 
-  }
-  console.log(isadult)
+console.log(adult);
