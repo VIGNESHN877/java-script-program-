@@ -13,4 +13,6 @@ else{
     adult = ' the age is less than 18';
 }
 
+
+
 console.log(adult);
