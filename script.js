@@ -1,10 +1,15 @@
-    let a = '0';
-
-    a = Boolean(a);
+// NULL AND UNDEFINED 
 
 
-    let b = 0;
-    b = Boolean(b);
-    console.log('0'== 0);
+//console.log(null == undefined, null === undefined); // true
 
-   
+// console.log(undefined > 0);
+// console.log(undefined<= 0);
+// console.log(undefined< 0);
+// console.log(undefined == 0);
+
+
+console.log(  null > 0);
+console.log( null<= 0);
+console.log(null< 0);
+console.log(null == 0);
