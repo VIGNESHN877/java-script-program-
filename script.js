@@ -1,14 +1,13 @@
-// < lessthan 
-// < grather than
+//is a !=b ?
 
 
-let  a = 5;
+let  a = "vignesh";
 
-let b = 10;
+let b = 'n';
 
-let result = a !=b;
+let result = a >b;
 
 
-console.log(a>b);
 
 console.log(result);
+// there are using unicode
