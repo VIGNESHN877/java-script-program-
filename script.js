@@ -1,13 +1,19 @@
 // factorail
 
-let n =5 ;
 
-let ans = 0 ;
-let i = 1 ;
+    let n = 10;
 
-while(i<=n){
 
-    ans +=i;
-    i++;
-}
-console.log(ans)
+    let ans = 0;
+
+
+    for (let i =1; i <= n; i++) {
+
+        if (i % 2 == 0) {
+            continue;
+
+        }
+        ans+=i;
+    }
+
+    console.log(ans);
