@@ -1,10 +1,16 @@
-// null 
+// loop  
+// while , do -while ,for 
 
-let age;
+// printing from 1-10
+// initialisation,Validation, 
 
-age = 25;
+let num =1 ;
 
-let current_age = age ?? 19;
+while (num < 10){
+   (num++)
+    console.log(num)
+
+}
+console.log('outside loop ')
 
 
-console.log(current_age); // 19
