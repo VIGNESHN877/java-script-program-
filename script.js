@@ -1,19 +1,12 @@
-// loop  
-// while , do -while ,for 
+// factorail
 
-// printing from 1-10
-// initialisation,Validation, 
+let n =4 ;
 
-// let num =11 ;
-
-// do{
-//     console.log(num);
-//     num++;
-// }while(num <=10);
-// console.log('outside loop ')
-
-for(let num =1 ; num <=10 ; num++){
+let ans = 1 ;
 
 
-    console.log('inside code block ' + num);
+for(let i = 1;i<=n; i++){
+
+ans *= i ;
+console.log(ans);
 }
