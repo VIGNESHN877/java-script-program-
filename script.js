@@ -1,31 +1,14 @@
-// NULL AND UNDEFINED 
+  let isadult ;
 
 
-//console.log(null == undefined, null === undefined); // true
-
-// console.log(undefined > 0);
-// console.log(undefined<= 0);
-// console.log(undefined< 0);
-// console.log(undefined == 0);
-// console.log(Number(undefined));
-
-// iN This code is 
+  let age = 20;
 
 
-// console.log(  null > 0);
-// console.log( null<= 0);
-// console.log(null< 0);
-// console.log(null == 0);
+  if(age > 18){
+
+isadult = true;
+  
 
 
-let a ='goms';
-
-let b = 'Zoms';
-
-let value = a >b ;
-let value2 = a === b;
-
-
-
-console.log(value,value2);
-
+  }
+  console.log(isadult)
