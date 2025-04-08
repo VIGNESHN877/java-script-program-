@@ -2,12 +2,9 @@
 
 // - OR, - AND ,- NOT ,NULL Coalescing
 
-// truth table for AND  operator
+// truth table for NOT  operator
 
-/* Truth Table for AND
-    A       B      0
-    1        1     1 
-    1        0     0
-    0        1     0 
-    0        0     0
-     */
+/* NOT
+   1  0
+   0  1   */
+
