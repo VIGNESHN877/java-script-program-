@@ -1,16 +1,13 @@
-let x = -10;
+
+let year = 2004;
 
 
-if (x > 0){
+if(year / 4 == 0 && year % 4 != 0) {
 
-    console.log('passitive')}
-    if (x < 0) {
+    console.log('this a leep year')}
+    else if(year % 4 == 0 && year % 100 == 0 && year) {
 
-        console.log('nagative')
-    
-    }
-
-
-else {
-    console.log('zero')
-}
+        console.log('this a leep year')}
+        else{
+            console.log('this is not a leep year')
+        }
