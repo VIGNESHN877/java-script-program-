@@ -1,15 +1,13 @@
-let num = 11;
+// logical ops in java script
 
+// - OR, - AND ,- NOT ,NULL Coalescing
 
-if (num %2 == 0) {
+// truth table for OR operator
 
-    console.log('even number');
-
-
-
-}
-else{
-
-    console.log('odd Number ');
-
-}
+/* Truth Table for OR
+    A       B      0
+    1        1     1 
+    1        0      1
+    0        1      1 
+    0        0      0
+     */
