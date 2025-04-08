@@ -1,33 +1,10 @@
-// logical ops in java script
+// null 
 
-// - OR, - AND ,- NOT ,NULL Coalescing
+let age;
 
-// truth table for NOT  operator
+age = 25;
 
-/* NOT
-   1  0
-   0  1   */
-
-//    // truth table for AND operator
-
-// // eli
-//    console.log(1 || 23);
-// console.log(1 && 23);
-
-// console.log(!0)
+let current_age = age ?? 19;
 
 
-// eligibity for a mrg 
-
-
-let age = 20;
-
-
-let Gender = "Female";
-if(age > 21 || age >= 18 && Gender === "Female" ){
-
-    console.log('Eligible');
-}
-else {
-    console.log('not Eligible')
-}
+console.log(current_age); // 19
