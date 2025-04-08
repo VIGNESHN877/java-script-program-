@@ -1,10 +1,10 @@
 let person;
 
 
-let age = 18 ;
+let age = 51 ;
 
 
-person = (age > 18) ? "adult" : "minor";
+person = (age > 18,age >= 50) ? "adult" : "minor";
 
 
-console.log(' '+person);
+console.log(person,'\n',person1);
