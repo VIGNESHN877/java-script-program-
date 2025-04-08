@@ -8,3 +8,10 @@
    1  0
    0  1   */
 
+   // truth table for AND operator
+
+
+   console.log(1 || 23);
+console.log(1 && 23);
+
+console.log(!0)
