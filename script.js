@@ -1,13 +1,14 @@
 //is a !=b ?
 
+// comparisons in javascript
+let  a = "vignesh"; // -> false
 
-let  a = "vignesh";
+let b = 'vigneshn';// -> true 
 
-let b = 'n';
+let result = a <b;
 
-let result = a >b;
+let result1 = a > b;
 
-
-
+console.log(result1)
 console.log(result);
 // there are using unicode
