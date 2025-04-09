@@ -7,7 +7,7 @@
   switch (n) {
 
 
-   case 1:
+   case 1: // dont use a string value for a case label
             console.log('one');
             break;
 
