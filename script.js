@@ -1,20 +1,13 @@
-// switch
+ let a = 13 , b = 24;
 
 
-  let op = '+';
-
-  let a = 55, b = 5 ;
+// console.log((a+b/a)*b);
 
 
-  switch (op) {
+function solve(a,b) {
+   console.log((a+b/b)*b);
+}
 
-   case '+':
-              console.log(a+b) 
-              break
-            
-   case '-': console.log(a-b)
-break
+solve(a,b);
 
-default:
-        console.log('this a code defult ')
-      }
+solve(2002,2004);
