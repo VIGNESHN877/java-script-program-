@@ -1,24 +1,20 @@
 // switch
 
 
-   let n = 5 ;
+  let op = '+';
+
+  let a = 5, b = 10 ;
 
 
-  switch (n) {
+  switch (op) {
 
+   case '+':
+              console.log(a+b) 
+              break
+            
+   case '-': console.log(a-b)
+break
 
-   case 1: // dont use a string value for a case label
-            console.log('one');
-            break;
-
-  case 2 : console.log('Two');
-          break;
- case 3: console.log('Three');
-          break;
- case 4: console.log('Four');
-          break;
-case 5: console.log('Five');
-         break;
-         default:
-            console.log('default')
-  }
+default:
+        console.log('this a code defult ')
+      }
