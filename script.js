@@ -1,19 +1,24 @@
-// factorail
+// switch
 
 
-    let n = 10;
+   let n = 5 ;
 
 
-    let ans = 0;
+  switch (n) {
 
 
-    for (let i =1; i <= n; i++) {
+   case 1:
+            console.log('one');
+            break;
 
-        if (i % 2 == 0) {
-            continue;
-
-        }
-        ans+=i;
-    }
-
-    console.log(ans);
+  case 2 : console.log('Two');
+          break;
+ case 3: console.log('Three');
+          break;
+ case 4: console.log('Four');
+          break;
+case 5: console.log('Five');
+         break;
+         default:
+            console.log('default')
+  }
