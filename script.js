@@ -3,7 +3,7 @@
 
   let op = '+';
 
-  let a = 5, b = 10 ;
+  let a = 55, b = 5 ;
 
 
   switch (op) {
