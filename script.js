@@ -3,4 +3,4 @@ let add = (a,b) => a+b;
 let sub = (a,b) => a-b;
 
 
-console.log(operation(sub,2,3));
+console.log(operation,'\n',(sub,21,3),'\n',(add,40,50));
