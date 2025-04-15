@@ -1,9 +1,4 @@
-function operation (op,a,b){
-   return op(a,b);
-
-
-}
-
+let operation = (op,a,b) => op(a,b);
 let add = (a,b) => a+b;
 let sub = (a,b) => a-b;
 
