@@ -1,13 +1,19 @@
-let a =12 ,b=24;
 
- 
 
-function sum (a,b) {
+let a = 10;
 
-   let c = a + b ;
-   return c ;
+
+function oddeven(a){
+
+   if(a%2==0){
+
+      return "even";
+   }
+   else{
+      return "odd";
+      }
 }
 
-console.log(typeof (
-   sum(a,b)
-))
+console.log(oddeven(a));
+
+
