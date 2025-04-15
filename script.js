@@ -1,11 +1,12 @@
+   let system = {
 
+      name:'loptap',
+      company:'hp',
+      price: 200000,
+   };
+   console.log(system.name);
 
+    system.price=1000;
+   console.log(system.price);
 
-      let car ={
-         name:'nexon',
-         color:'black',
-         price:2000000
-         }
-         console.log(car);
-
-      
+console.log(system);
