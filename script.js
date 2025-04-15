@@ -3,7 +3,7 @@
 let a = 10;
 
 
-function oddeven(a){
+let oddOreven = (a) =>{
 
    if(a%2==0){
 
@@ -14,6 +14,6 @@ function oddeven(a){
       }
 }
 
-console.log(oddeven(a));
+console.log(oddOreven(a));
 
 
