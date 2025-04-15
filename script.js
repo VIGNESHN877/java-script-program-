@@ -1,7 +1,12 @@
-function sum(a,b){
+let a =12 ,b=24;
 
-   console.log('\n',a+b,'\n',a-b,'\n',a*b,'\n',a/b,'\n',a%b);
-   
+
+let c;
+
+function add(a, b) {
+
+   c = (a+b,a*b,a-b)
+   return
 }
 
-sum(230,200);
+add(20,2);
