@@ -6,7 +6,8 @@ let c;
 function add(a, b) {
 
    c = (a+b,a*b,a-b)
-   return
+   return c,"hello";
 }
 
-add(20,2);
+console.log(typeof
+   add(20,2));
