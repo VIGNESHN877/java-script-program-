@@ -1,13 +1,13 @@
 let a =12 ,b=24;
 
+ 
 
-let c;
+function sum (a,b) {
 
-function add(a, b) {
-
-   c = (a+b,a*b,a-b)
-   return c,"hello";
+   let c = a + b ;
+   return c ;
 }
 
-console.log(typeof
-   add(20,2));
+console.log(typeof (
+   sum(a,b)
+))
