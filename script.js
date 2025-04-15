@@ -1,8 +1,11 @@
+function operation (op,a,b){
+   return op(a,b);
 
 
+}
 
-let oddOreven = (a) => a%2==0 ? "even" : "odd";
+let add = (a,b) => a+b;
+let sub = (a,b) => a-b;
 
-console.log(oddOreven(5));
 
-
+console.log(operation(sub,2,3));
