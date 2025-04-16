@@ -1,7 +1,8 @@
 // Array 
 // array other modthod 
 
-let veges =['carrot','beetroot ','pumkin'];
+let veges =new Array('carrot','beetroot ','pumkin');
+
 
 console.log(veges.length);
 
