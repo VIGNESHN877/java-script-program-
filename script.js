@@ -3,11 +3,33 @@
 // -UPDATE CASE: if the array has more than one element, find the maximum value between the first element and
 // the maximum value of the rest of the array
 // -RECURSIVE CALL
+// function factorial(n){
+//     if(n == 0 || n == 1){
+//         return 1;
+// }
+// return n*factorial(n-1);
+// }
+// console.log(factorial(5));
 
-const { cachedDataVersionTag } = require("node:v8");
 
-function factorial(n){
-    return n*factorial(n-1);
+// function one(k){
+//     if(k == 0 || k == 1){
+//         return 1;
 
+// }
+// return k*one(k-1);
+// }
+
+// console.log(one(12))
+
+function two(b){
+
+    if(b== 0 ){
+        return 1;
+    }
+    return b * two(b-1);
+
+   
 }
-// 5! => 0+1+2+3+4+5=15
+
+console.log(two(22));
