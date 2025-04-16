@@ -4,7 +4,7 @@
 let veges =['carrot','beetroot ','pumkin'];
 
 
-veges.push('potato');
+veges.unshift('potato');
 
 
 console.log(veges);
