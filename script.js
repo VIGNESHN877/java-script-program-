@@ -12,4 +12,4 @@
    // call the function
 
    let sum = new add();
-   console.log(sum.add(5)); // Output: 20
+   console.log(sum.add(24)); // Output: 20
