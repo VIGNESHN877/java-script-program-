@@ -1,15 +1,11 @@
-let set =new Set();
+// JSON - JavaScript Object Notation
 
 
-set.add(9),
-set.add(5),
-set.add(0),
-set.add(0),
-set.add(9),
-set.add(8),
-set.add(1),
-set.add(0), // this a porperty
-set.add(6),
-set.add(4);
+let user ={
+   name:'vignesh',
+   age:25,
+   salary:100000,
+}
 
-console.log(set.size);
+
+console.log(JSON.stringify(user));
