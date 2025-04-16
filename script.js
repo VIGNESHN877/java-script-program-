@@ -1,17 +1,12 @@
-let car ={
-
-   name:'nexon',
-   brand :'kia',
-   year:2015,
-   price:20000,
-   color:'black',
-}
-
-car['module']= 2025;
-console.log(car);
-// delete[year];
-console.log(car);
+      let car ={
+         name:'nexon',
+         brand:'tata',
+         drivetrain:'petrol,diesal,ev',
+         price:5000000,
+         color:'red,blue,green',
+         mileage:20
+   }
 
 
-console.log(2<8>5);
-console.log(8>1<5);
+   console.log
+   (`${car.name} is a ${car.brand} car with a ${car.drivetrain}`)
