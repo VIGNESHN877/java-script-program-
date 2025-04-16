@@ -1,7 +1,7 @@
 // Array 
+// array other modthod 
 
-
-let veges = new Array(5); // 5 empty slots
+let veges =[]; // 5 empty slots
 
 veges=['carrot','beetroot '];
 
