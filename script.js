@@ -1,17 +1,12 @@
-// Array 
-// array other modthod 
-
-let veges =new Array('carrot','beetroot ','pumkin');
+// Array
 
 
-console.log(veges.length);
+let mat =[
 
-for(let i = 0; i<veges.length; i++){
-   console.log(veges[i]);
-}
+   [1,2,3],
+   [4,5,6],
+   [7,8,9]
+]
 
-// for(vege in  veges){
 
-//    console.log(veges[vege]);
-// }// of operator is used to iterate over the array elements
-// // in operator is used to check if the element is present in the array or not
+console.log(mat);
