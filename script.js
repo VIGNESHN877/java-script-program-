@@ -12,4 +12,5 @@ map.set(2,'in this number value add');
 
 map.set(3,'this a value ')
 
-console.log(map.has(2));
+map.delete(2);
+console.log(map);
