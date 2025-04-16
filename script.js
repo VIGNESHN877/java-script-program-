@@ -17,7 +17,7 @@
       
 
       // console.log(rija);
-      // console.log(vignesh);
+      console.log(vignesh);
       console.log(vignesh.age());
 
       // consuter
