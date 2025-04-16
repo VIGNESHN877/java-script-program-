@@ -1,15 +1,8 @@
-    // add the function 
+// Array 
 
 
-    function add(){
-      this.a = 5;
-      this.b= 10;
-      this.add = function(c){
-         return this.a+this.b+c;
-      
-      };
-   };
-   // call the function
+let veges = new Array(5); // 5 empty slots
 
-   let sum = new add();
-   console.log(sum.add(4)); // Output: 20
+veges=['carrot','beetroot '];
+
+console.log(veges);
