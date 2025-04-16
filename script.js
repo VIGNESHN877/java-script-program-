@@ -1,6 +1,13 @@
 // Array 
 // array other modthod 
 
-let veges =['carrot','beetroot ']; // 5 empty slots
+let veges =['carrot','beetroot ','pumkin']; // 5 empty slots
 
-console.log(veges[1]);
+console.log(veges[2]);
+
+
+let vag = new Array();
+
+ vag = ['1','2','3'];
+
+console.log(vag[2])
