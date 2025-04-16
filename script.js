@@ -1,23 +1,15 @@
-     
-     let a ={
-      name:'vignesh',
-      age:25
-     }
-     
-     
-     function User(a){
-      this.name= 'vignesh';   // this is used to access the properties of the object
-     this.age=function(){
-      return 25;
-     }
-   }
-      let vignesh = new User;
-      // let rija = new User();
- 
+    // add the function 
+
+
+    function add(){
+      this.a = 5;
+      this.b= 10;
+      this.add = function(c){
+         return this.a+this.b+c;
       
+      };
+   };
+   // call the function
 
-      // console.log(rija);
-      console.log(vignesh);
-      console.log(vignesh.age());
-
-      // consuter
+   let sum = new add();
+   console.log(sum.add(5)); // Output: 20
