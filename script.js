@@ -1,11 +1,15 @@
-let set = new Set();
+let set =new Set();
 
-set.add('vignesh');
-set.add('kumar');
-set.add('rija');
-set.add('vigneshn');
-console.log(set);
- // this value type for a delete value is not a string
-console.log(set.size);
-set.clear();
+
+set.add(9),
+set.add(5),
+set.add(0),
+set.add(0),
+set.add(9),
+set.add(8),
+set.add(1),
+set.add(0),
+set.add(6),
+set.add(4);
+
 console.log(set.size);
