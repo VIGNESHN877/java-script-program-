@@ -10,10 +10,13 @@
 
       // a= {}; // This will throw an error because a is a const variable
 
-      a.age= 21;
-      a.name='vignesh.N';
+      // a.age= 21;
+      // a.name='vignesh.N';
 
 
-      a=null;
-      console.log(a);
+   
+      b=a;
+      a={};
+      
+      console.log(a,b);
       // this a carpagecollection
