@@ -3,8 +3,7 @@
 
 let veges =['carrot','beetroot ','pumkin'];
 
+for(veges of veges){
 
-console.log(veges.shift(),veges.pop());
-
-
-console.log(veges);
+   console.log(veges);
+}
