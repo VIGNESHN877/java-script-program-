@@ -1,14 +1,7 @@
 // Array 
 // array other modthod 
 
-let veges =['carrot','beetroot ','pumkin']; // 5 empty slots
+let veges =['carrot','beetroot ','pumkin',true,null ,{name:'vignesh',age:20}, undefined,23]; // 5 empty slots
 
-console.log(veges[2]);
+console.log(veges[5].age);
 
-   //----- or ----
-
-let vag = new Array();
-
- vag = ['1','2','3'];
-
-console.log(vag[2])
