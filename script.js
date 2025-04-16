@@ -1,22 +1,15 @@
-// Array
+// map and set 
 
 
-let mat =[
+let map = new Map(); // this a map object
 
-   [1,2,3],
-   [4,5,6],
-   [7,8,9]
-]
 
-// console.log(mat[0][2]);
-// console.log(mat);
+console.log(map,typeof map);
 
-for(let i =0;i<mat.length;i++){
+map.set(1,'in this number value add');
 
-for(let j =0;j<mat[i].length;j++){
+map.set(2,'in this number value add');
 
-   console.log(mat[i][j]);
-}
-   // console.log(mat[i]);
+map.set(3,'this a value ')
 
-}
+console.log(map.get(2));
