@@ -12,5 +12,5 @@ console.log("city" in user); // false
 for(key in user){
 
    console.log(user[key],[key]);
-//    console.log(key+'-'+user[key]);
+  console.log(key+'-'+user[key]);
  }
