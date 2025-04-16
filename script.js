@@ -1,12 +1,17 @@
-   let system = {
+let car ={
 
-      name:'loptap',
-      company:'hp',
-      price: 200000,
-   };
-   console.log(system.name);
+   name:'nexon',
+   brand :'kia',
+   year:2015,
+   price:20000,
+   color:'black',
+}
 
-    system.price=1000;
-   console.log(system.price);
+car['module']= 2025;
+console.log(car);
+// delete[year];
+console.log(car);
 
-console.log(system);
+
+console.log(2<8>5);
+console.log(8>1<5);
