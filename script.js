@@ -1,12 +1,14 @@
-let a = 20;
+let a ={
 
+name: "vignesh",
+age: 20,
+};
 
-let b = a;
-
+let b = a ;
 
 console.log(a,b);
 
 
-b = 30;
+b= {};
 
 console.log(a,b);
