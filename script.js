@@ -17,6 +17,6 @@ for(let j =0;j<mat[i].length;j++){
 
    console.log(mat[i][j]);
 }
-   console.log(mat[i]);
+   // console.log(mat[i]);
 
 }
