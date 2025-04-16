@@ -1,11 +1,7 @@
 // JSON - JavaScript Object Notation
 
 
-let user ={
-   name:'vignesh',
-   age:25,
-   salary:100000,
-}
+let user ='{"name": "vignesh","age ": 25,"city": "chennai"}'
 
 
-console.log(JSON.stringify(user));
+console.log(typeof(JSON.parse(user)));
