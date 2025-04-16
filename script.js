@@ -3,8 +3,6 @@ let user ={
    age:20,
 };
 
+// in opertor 
 
-console.log(user.name);
-user.name ='vignesh N'
-console.log(user);
-console.log(user.name);
+console.log("age" in user); // true
