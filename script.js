@@ -1,15 +1,16 @@
-const a ={
+      const a ={
 
-name: "vignesh",
-age: 20,
-};
+      name: "vignesh",
+      age: 20,
+      };
 
 
 
-console.log(a);
+      console.log(a);
 
-// a= {}; // This will throw an error because a is a const variable
+      // a= {}; // This will throw an error because a is a const variable
 
-a.age= 21;
+      a.age= 21;
+      a.name='vignesh.N';
 
-console.log(a);
+      console.log(a);
