@@ -1,16 +1,12 @@
-let user ={
-   name: "vignesh",
-   age:20,
-};
+let a = 20;
 
-// in opertor 
 
-console.log("age" in user); // true
-console.log("name" in user); // true
-console.log("city" in user); // false
+let b = a;
 
-for(key in user){
 
-   console.log(user[key],[key]);
-  console.log(key+'-'+user[key]);
- }
+console.log(a,b);
+
+
+b = 30;
+
+console.log(a,b);
