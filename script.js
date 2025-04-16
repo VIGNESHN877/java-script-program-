@@ -1,4 +1,4 @@
-      const a ={
+      let a ={
 
       name: "vignesh",
       age: 20,
@@ -13,4 +13,7 @@
       a.age= 21;
       a.name='vignesh.N';
 
+
+      a=null;
       console.log(a);
+      // this a carpagecollection
