@@ -1,22 +1,19 @@
-      let a ={
-
-      name: "vignesh",
-      age: 20,
-      };
-
-
-
-      console.log(a);
-
-      // a= {}; // This will throw an error because a is a const variable
-
-      // a.age= 21;
-      // a.name='vignesh.N';
-
-
-   
-      b=a;
-      a={};
+     
+     let a ={
+      name:'vignesh',
+      age:25
+     }
+     
+     
+     function User(a){
+      this.name= 'vignesh';   // this is used to access the properties of the object
+      }
+      let vignesh = new User;
+      // let rija = new User();
+ 
       
-      console.log(a,b);
-      // this a carpagecollection
+
+      // console.log(rija);
+      console.log(vignesh);
+
+      // consuter
