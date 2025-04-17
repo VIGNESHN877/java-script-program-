@@ -1,35 +1,24 @@
-// recursive function to find the maximum value in the array
-// -BASE CASE: if the array has only one element, return that element
-// -UPDATE CASE: if the array has more than one element, find the maximum value between the first element and
-// the maximum value of the rest of the array
-// -RECURSIVE CALL
-// function factorial(n){
-//     if(n == 0 || n == 1){
-//         return 1;
-// }
-// return n*factorial(n-1);
-// }
-// console.log(factorial(5));
+        let  user = {  // object
+            name: 'John Doe',
+            age: 30,
+            occupation: 'Software Engineer',
+           
+        };
 
 
-// function one(k){
-//     if(k == 0 || k == 1){
-//         return 1;
-
-// }
-// return k*one(k-1);
-// }
-
-// console.log(one(12))
-
-function two(b){
-
-    if( b === 0 ){
-        return 1;
-    }
-    return b + two(b-1);
-
-   
-}
-
-console.log(two(21));
+        // class 
+        class User {
+        
+            name = 'John Doe';
+            age = 30;  
+            display(){
+                console.log(`Name: ${this.name}, Age: ${this.age}`);
+            } 
+            //   constructor(name, age) {
+            //     this.name = name;
+            //     this.age = age;
+            //   }
+        }
+       let user1 = new User();
+       user1.display();
+       console.log(user1);
