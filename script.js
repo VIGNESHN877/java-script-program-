@@ -1,8 +1,9 @@
+let value = "2000";
 let car ={
 
     name: "VOLA",
     brand: "TATA ",
-    model: "2020",
+    model: "2020 + " + value,
     price: "100000",
 }
 let car1 ={
