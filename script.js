@@ -25,17 +25,25 @@ console.log(
 
 
 console.log(y.work);
-
+let car;
 let z = {
 
 
     dothing: " some work ",
-    youthing: "you need work + " + two,
+    youthing: "you need work + " + two + car,
 }
 
 console.log(z);
 
 delete z.dothing;
 
-console.log(z)
+console.log(z);
+
+
+
+z['youthing']= "work";
+console.log(z);
+
+
+
 
