@@ -1,49 +1,63 @@
-let x ={
-name:"vignesh",
-class: "12th pass",
-school:"G.H.S.SCHOOL",
+let car ={
 
-};
-// this a object code file 
-console.log(typeof(x),(x),(x.name));
-
-let two = "playing a games";
-
-
-let y = {
-
-    name1:"vignesh",
-    work:"full stack development + " + two ,
-    current:"student",
+    name: "VOLA",
+    brand: "TATA ",
+    model: "2020",
+    price: "100000",
+}
+let car1 ={
+    name1:"MICRO",
+    model:"2008",
+    price:"220000",
+    brand:"my working"
 
 }
 
-console.log(
-    (y.name1),
-    y  
-)
-
-
-console.log(y.work);
-let car;
-let z = {
-
-
-    dothing: " some work ",
-    youthing: "you need work + " + two + car,
-}
-
-console.log(z);
-
-delete z.dothing;
-
-console.log(z);
-
-
-
-z['youthing']= "work";
-console.log(z);
 
 
 
 
+console.log(car.name);
+console.log(car.brand);
+console.log(car.model);
+console.log(car.price);
+console.log(typeof(car));
+console.log(car);
+
+console.log(car1.name1);
+console.log(car1.brand);
+console.log(car1.model);
+console.log(car1.price);
+console.log(typeof(car1));
+console.log(car1);
+
+
+car['name']= "TATA 1";
+car['brand']='vaoda';
+car['model']='2212';
+car['price']= "22122004";
+
+console.log(car.name);
+console.log(car.brand);
+console.log(car.model);
+console.log(car.price);
+
+
+
+car1.name1='tatami';
+car1.model='2004';
+car1.price='200422';
+
+
+
+console.log(car1.name1);
+
+console.log(car1.model);
+console.log(car1.price);
+
+
+
+delete car.name;
+delete car.brand;
+delete car.model;
+delete car.price;
