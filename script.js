@@ -9,6 +9,7 @@ console.log(typeof(x),(x),(x.name));
 
 let two = "playing a games";
 
+
 let y = {
 
     name1:"vignesh",
@@ -33,3 +34,8 @@ let z = {
 }
 
 console.log(z);
+
+delete z.dothing;
+
+console.log(z)
+
