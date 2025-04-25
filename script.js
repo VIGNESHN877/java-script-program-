@@ -7,7 +7,7 @@ school:"G.H.S.SCHOOL",
 // this a object code file 
 console.log(typeof(x),(x),(x.name));
 
-let two = "player";
+let two = "playing a games";
 
 let y = {
 
@@ -23,4 +23,13 @@ console.log(
 )
 
 
-console.log(y.work)
+console.log(y.work);
+
+let z = {
+
+
+    dothing: " some work ",
+    youthing: "you need work + " + two,
+}
+
+console.log(z);
