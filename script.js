@@ -5,8 +5,8 @@ let car ={
     brand: "TATA ",
     model: "2020 + " + value,
     price: "15",
-    onRoadPrice(){
-        return this.price+2; //  this   a current object take a price 
+    onRoadPrice(price){
+        return price+2; //  this   a current object take a price 
     }
     
 }
@@ -19,7 +19,7 @@ let car1 ={
 }
 
 
-console.log(onRoadPrice());
+car1['modelyear']=2024;
 
 
 
