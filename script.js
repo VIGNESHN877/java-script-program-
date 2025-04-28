@@ -4,7 +4,11 @@ let car ={
     name: "VOLA",
     brand: "TATA ",
     model: "2020 + " + value,
-    price: "100000",
+    price: "15",
+    onRoadPrice(){
+        return this.price+2; //  this   a current object take a price 
+    }
+    
 }
 let car1 ={
     name1:"MICRO",
@@ -15,6 +19,7 @@ let car1 ={
 }
 
 
+console.log(onRoadPrice());
 
 
 
